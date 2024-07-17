@@ -646,3 +646,8 @@ section.home-bnr.inner-bnr.veltsis-kyros{
     background-size: cover;
     background-position: center;
 }
+section.home-bnr.inner-bnr.car-repair{
+    background: url(../images/Car-repair.avif)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
