@@ -636,18 +636,49 @@ section.home-bnr.inner-bnr.net-value {
     background-size: cover;
     background-position: center;
 }
-section.home-bnr.inner-bnr.we-find{
+
+section.home-bnr.inner-bnr.we-find {
     background: url(../images/WE-FIND.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
-section.home-bnr.inner-bnr.veltsis-kyros{
+
+section.home-bnr.inner-bnr.veltsis-kyros {
     background: url(../images/VELTSIS-KYROS.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
-section.home-bnr.inner-bnr.car-repair{
+
+section.home-bnr.inner-bnr.car-repair {
     background: url(../images/Car-repair.avif)no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.apartment ul li {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 15px;
+
+
+}
+
+.apartment ul li::before {
+    position: absolute;
+    content: "";
+    background: #f47629;
+    width: 8px;
+    height: 8px;
+    top: 8px;
+    left: 0;
+    border-radius: 50%;
+}
+
+.apartment ul li a {
+    color: #f47629;
+}
+
+.apartment h4 {
+    font-size: 26px;
+    font-weight: 600;
 }
