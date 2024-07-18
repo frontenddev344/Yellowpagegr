@@ -399,6 +399,12 @@ section.home-bnr.inner-bnr.master-clean {
     background-position: 100% 9%;
 }
 
+section.home-bnr.inner-bnr.speaker {
+    background: url(../images/speaker.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .endless-content h5 {
     font-size: 26px;
     font-weight: 600;
@@ -682,3 +688,5 @@ section.home-bnr.inner-bnr.car-repair {
     font-size: 26px;
     font-weight: 600;
 }
+
+
