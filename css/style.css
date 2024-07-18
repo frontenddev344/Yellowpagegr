@@ -688,5 +688,9 @@ section.home-bnr.inner-bnr.car-repair {
     font-size: 26px;
     font-weight: 600;
 }
-
+section.home-bnr.inner-bnr.douskos-dimitrios{
+    background: url(../images/DOUSKOS.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
