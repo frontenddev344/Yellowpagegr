@@ -87,7 +87,7 @@ ul.dropdown-content li a {
 
 .page-header {
     width: 100%;
-    background-color: #fff;
+    background-color: #303442;
     z-index: 999;
     box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
 
@@ -173,7 +173,7 @@ ul.menu li:hover ul.dropdown-content {
 
 .toggle-bar {
     display: block !important;
-    color: #000;
+    color: #fff;
 }
 
 .toggle-bar span.toggle_menu {
@@ -222,7 +222,7 @@ ul.menu li:hover ul.dropdown-content {
 .logo a {
     font-size: 2.5rem;
     line-height: 40px;
-    color: #303442;
+    color: #fff;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     position: relative;
@@ -347,6 +347,7 @@ footer.footer {
 
 .textwidget p a i {
     margin: 0 12px 0 0;
+    font-size: 1.5625rem;
 }
 
 .textwidget p a {
@@ -556,7 +557,7 @@ span.number-text {
 }
 
 .customer-content h3 {
-    font-size: 1.375rem;
+    font-size: 1.370rem;
     font-weight: 500;
     color: #f47629;
     word-break: break-all;
