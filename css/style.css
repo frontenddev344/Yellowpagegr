@@ -1,22 +1,20 @@
 /*  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+html{
+    font-size: 16px;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-
-}
-
-img {
-    width: 100%;
+    word-break: break-all;
 }
 
 p {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     word-break: break-all;
 }
@@ -24,10 +22,6 @@ p {
 a {
     text-decoration: none;
     cursor: pointer;
-}
-
-a:hover {
-    cursor: pointer !important;
 }
 
 ul {
@@ -72,7 +66,7 @@ ul.dropdown-content li a {
     padding: 20px;
     font-weight: 400;
     position: relative;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-transform: capitalize;
     letter-spacing: 1.5px;
 }
@@ -183,7 +177,7 @@ ul.menu li:hover ul.dropdown-content {
 }
 
 .toggle-bar span.toggle_menu {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 span.closebtn {
@@ -193,7 +187,7 @@ span.closebtn {
     position: absolute;
     right: 19px;
     top: 10px;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .navigation div#mySidenavs ul {
@@ -226,7 +220,7 @@ ul.menu li:hover ul.dropdown-content {
 }
 
 .logo a {
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 40px;
     color: #303442;
     font-family: "Poppins", sans-serif;
@@ -308,7 +302,7 @@ section.home-bnr::before {
 .banner-content h1 {
     color: #fff;
     text-align: center;
-    font-size: 60px;
+    font-size: 3.75rem;
     word-break: break-all;
 }
 
@@ -332,9 +326,9 @@ footer.footer {
 
 .menu-footer ul li a {
     color: #fff;
-    font-size: 16px;
+    font-size: 1rem;
     display: inline-block;
-    padding: 3px 0;
+    padding: 6px 0;
     transition: all 0.3s linear;
 }
 
@@ -344,7 +338,7 @@ footer.footer {
 
 .textwidget p a {
     color: #fff;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .textwidget p a:hover {
@@ -357,7 +351,7 @@ footer.footer {
 
 .textwidget p a {
     color: #fff;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .textwidget p {
@@ -415,7 +409,7 @@ section.home-bnr.inner-bnr.speaker {
 }
 
 .endless-content h5 {
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 600;
     padding-bottom: 20px;
 }
@@ -445,7 +439,7 @@ section.home-bnr.inner-bnr.speaker {
     display: block;
     text-transform: capitalize;
     margin-bottom: 0px;
-    font-size: 16px;
+    font-size: 1rem;
     color: #000;
 }
 
@@ -469,7 +463,7 @@ textarea#message {
 }
 
 .contact-f h3 {
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
     padding: 50px 0;
 }
@@ -478,7 +472,7 @@ p.submit input {
     width: auto;
     padding: 14px 33px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     line-height: 118%;
     letter-spacing: 0.03em;
@@ -509,7 +503,7 @@ section.contact-us-content {
 }
 
 .content-us-box h3 {
-    font-size: 31px;
+    font-size: 1.9375rem;
     margin-bottom: 50px;
     font-weight: 600;
 }
@@ -530,8 +524,6 @@ section.contact-us-content {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease-in-out;
-
-
 }
 
 .customer-box:hover {
@@ -564,7 +556,7 @@ span.number-text {
 }
 
 .customer-content h3 {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 500;
     color: #f47629;
     word-break: break-all;
@@ -603,7 +595,7 @@ section.servive {
 }
 
 .servive-content-wrapper h4 {
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 600;
 }
 
@@ -641,7 +633,7 @@ section.servive {
     width: auto;
     padding: 14px 33px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     line-height: 118%;
     letter-spacing: 0.03em;
@@ -709,7 +701,7 @@ section.home-bnr.inner-bnr.car-repair {
 }
 
 .apartment h4 {
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 600;
 }
 
@@ -817,75 +809,37 @@ section.home-bnr.inner-bnr.plumbing {
     background-position: center;
 }
 
+
+/* news page css start */
+.news-wrap {
+    padding: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 30px;
+}
+.news-wrap h3 {
+    font-size: 1.5625rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+.news-wrap p{
+    color: #444;
+}
+.news-wrap:last-child{
+    margin-bottom: 0;
+}
+section.home-bnr.inner-bnr.news-banner {
+    height: 300px;
+    background-image: url(../images/news-banner.jpg);
+}
 .site-heading h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-bottom: 50px;
     line-height: 1.1;
     text-align: left;
     font-weight: 500;
     color: #000;
 }
-
 .customer-content h3 {
     word-break: break-all;
 }
-
-section.home-bnr.inner-bnr.tourism {
-    background: url(../images/Tourism-Entertainment.avif)no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-section.home-bnr.inner-bnr.mont {
-    background: url(../images/Mont.jpg)no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.moretext {
-    display: none;
-}
-
-section.monts-athens {
-    padding: 60px 0;
-}
-
-.athen-images {
-    height: 100%;
-}
-
-.athen-images a {
-    height: 100%;
-}
-
-.content-athens a {
-    color: #f47629;
-    text-decoration: underline;
-}
-
-.athens-wrappers a {
-    width: auto;
-    padding: 14px 33px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 118%;
-    letter-spacing: 0.03em;
-    color: #f47629;
-    background: #F6F9F6;
-    border: 2px solid #f47629;
-    border-radius: 15px;
-    transition: 1s;
-    display: inline-block;
-    border-bottom: 2px solid #f47629 !important;
-}
-.athens-wrappers a:hover{
-    color: #fff;
-    background-color: #f47629;
-}
-
-section.home-bnr.inner-bnr.regency{
-    background: url(../images/Regency.jfif)no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+/* news page css end */
