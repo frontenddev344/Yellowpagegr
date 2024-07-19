@@ -26,3 +26,23 @@
         color: inherit;
     }
 }
+
+@media only screen and (max-width: 767px) {
+    .logo a {
+        font-size: 28px;
+    }
+
+    .banner-content h1 {
+        font-size: 38px;
+    }
+
+    .endless-content h5 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .customer-box {
+        text-align: center;
+    }
+}

@@ -9,7 +9,9 @@
     font-family: "Poppins", sans-serif;
 
 }
-
+img{
+    width: 100%;
+}
 p {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -818,6 +820,12 @@ section.home-bnr.inner-bnr.plumbing {
 }
 section.home-bnr.inner-bnr.tourism{
     background: url(../images/Tourism-Entertainment.avif)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.home-bnr.inner-bnr.mont{
+    background: url(../images/Mont.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
