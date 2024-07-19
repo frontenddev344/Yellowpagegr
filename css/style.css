@@ -9,9 +9,11 @@
     font-family: "Poppins", sans-serif;
 
 }
-img{
+
+img {
     width: 100%;
 }
+
 p {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -23,7 +25,9 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
-
+a:hover{
+    cursor: pointer !important;
+}
 ul {
     margin: 0;
     padding: 0;
@@ -328,7 +332,7 @@ footer.footer {
     color: #fff;
     font-size: 16px;
     display: inline-block;
-    padding: 6px 0;
+    padding: 3px 0;
     transition: all 0.3s linear;
 }
 
@@ -525,7 +529,7 @@ section.contact-us-content {
     justify-content: center;
     transition: all 0.3s ease-in-out;
 
-    
+
 }
 
 .customer-box:hover {
@@ -810,6 +814,7 @@ section.home-bnr.inner-bnr.plumbing {
     background-size: cover;
     background-position: center;
 }
+
 .site-heading h3 {
     font-size: 30px;
     margin-bottom: 50px;
@@ -818,17 +823,47 @@ section.home-bnr.inner-bnr.plumbing {
     font-weight: 500;
     color: #000;
 }
+
 .customer-content h3 {
     word-break: break-all;
 }
-section.home-bnr.inner-bnr.tourism{
+
+section.home-bnr.inner-bnr.tourism {
     background: url(../images/Tourism-Entertainment.avif)no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-section.home-bnr.inner-bnr.mont{
+section.home-bnr.inner-bnr.mont {
     background: url(../images/Mont.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+.moretext {
+    display: none;
+}
+
+section.monts-athens {
+    padding: 60px 0;
+}
+
+.athen-images {
+    height: 100%;
+}
+
+.athen-images a {
+    height: 100%;
+}
+
+.content-athens a {
+    color: #f47629;
+    text-decoration: underline;
+}
+.athens-wrapper {
+    background: #fff;
+    padding:20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-bottom: 30px;
+}
+
