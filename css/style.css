@@ -924,3 +924,32 @@ section.home-bnr.inner-bnr.corfuu {
     background-size: cover;
     background-position: center;
 }
+
+section.home-bnr.inner-bnr.syros-casino {
+    background: url(../images/syros-casino.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.home-bnr.inner-bnr.rodos {
+    background: url(../images/rodos.jfif)no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+section.home-bnr.inner-bnr.rio-casino {
+    background: url(../images/rio-casino.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.home-bnr.inner-bnr.casino-loutraki {
+    background: url(../images/Casino-Loutraki.jpg)no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+section.home-bnr.inner-bnr.casino-Porto-carras-in-halkidiki{
+    background: url(../images/casino-Porto-carras-in-halkidik.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
