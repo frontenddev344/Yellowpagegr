@@ -520,6 +520,17 @@ section.contact-us-content {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.customer-box:hover {
+    background-color: #f47629;
+    color: #F6F9F6;
+}
+
+.customer-box:hover .customer-content h3,
+.customer-box:hover .customer-content a {
+    color: #fff;
 }
 
 span.number-text {
@@ -773,16 +784,22 @@ section.home-bnr.inner-bnr.polytechnician-of-telis {
     background-size: cover;
     background-position: center;
 }
-section.home-bnr.inner-bnr.technogas{
+
+section.home-bnr.inner-bnr.technogas {
     background: url(../images/Techno.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
-section.home-bnr.inner-bnr.maroulis-chrysantos-o{
+
+section.home-bnr.inner-bnr.maroulis-chrysantos-o {
     background: url(../images/Maroulis.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 
-
+section.home-bnr.inner-bnr.plumbing {
+    background: url(../images/Plumbing.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
