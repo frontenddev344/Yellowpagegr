@@ -2,6 +2,12 @@
     section.home-bnr {
         height: 400px;
     }
+    html{
+        font-size: 15px;
+    }
+    .banner-content h1 {
+        font-size: 3rem;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -24,5 +30,36 @@
 
     .navigation div#mySidenavs ul li a:hover {
         color: inherit;
+    }
+    .logo a {
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+    section.home-bnr.inner-bnr {
+        height: 400px;
+    }
+    .menu-footer h3, .widget-box h3 {
+        margin-bottom: 10px;
+    }
+    .footer-wrapper .col-lg-4 {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media(max-width:767px){
+    /* .sidenavs {
+        width: 100% !important;
+    } */
+     html{
+        font-size: 14px;
+     }
+     .site-heading h3 {
+        word-break: break-all;
+        text-align: center;
+    }
+    .banner-content h1 {
+        font-size: 2.6rem;
     }
 }
