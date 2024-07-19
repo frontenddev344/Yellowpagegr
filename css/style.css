@@ -816,3 +816,8 @@ section.home-bnr.inner-bnr.plumbing {
 .customer-content h3 {
     word-break: break-all;
 }
+section.home-bnr.inner-bnr.tourism{
+    background: url(../images/Tourism-Entertainment.avif)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
