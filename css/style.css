@@ -12,6 +12,10 @@ html{
     word-break: break-all;
 }
 
+img {
+    width: 100%;
+}
+
 p {
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
@@ -22,6 +26,10 @@ p {
 a {
     text-decoration: none;
     cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer !important;
 }
 
 ul {
@@ -328,7 +336,7 @@ footer.footer {
     color: #fff;
     font-size: 1rem;
     display: inline-block;
-    padding: 6px 0;
+    padding: 3px 0;
     transition: all 0.3s linear;
 }
 
@@ -524,6 +532,8 @@ section.contact-us-content {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease-in-out;
+
+
 }
 
 .customer-box:hover {
@@ -808,38 +818,3 @@ section.home-bnr.inner-bnr.plumbing {
     background-size: cover;
     background-position: center;
 }
-
-
-/* news page css start */
-.news-wrap {
-    padding: 25px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin-bottom: 30px;
-}
-.news-wrap h3 {
-    font-size: 1.5625rem;
-    color: #000;
-    margin-bottom: 10px;
-}
-.news-wrap p{
-    color: #444;
-}
-.news-wrap:last-child{
-    margin-bottom: 0;
-}
-section.home-bnr.inner-bnr.news-banner {
-    height: 300px;
-    background-image: url(../images/news-banner.jpg);
-}
-.site-heading h3 {
-    font-size: 1.875rem;
-    margin-bottom: 50px;
-    line-height: 1.1;
-    text-align: left;
-    font-weight: 500;
-    color: #000;
-}
-.customer-content h3 {
-    word-break: break-all;
-}
-/* news page css end */
