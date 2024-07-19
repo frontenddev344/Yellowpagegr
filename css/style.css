@@ -331,7 +331,7 @@ footer.footer {
     display: inline-block;
     padding: 3px 0;
     transition: all 0.3s linear;
-}sd
+}
 
 .menu-footer ul li a:hover {
     color: #f47629;
@@ -839,8 +839,6 @@ section.home-bnr.inner-bnr.mont {
     display: none;
 }
 
-
-
 section.monts-athens {
     padding: 60px 0;
 }
@@ -851,4 +849,16 @@ section.monts-athens {
 
 .athen-images a {
     height: 100%;
+}
+
+.content-athens a {
+    color: #f47629;
+    text-decoration: underline;
+}
+.athens-wrapper {
+    background: #fff;
+    padding:20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-bottom: 30px;
+
 }
