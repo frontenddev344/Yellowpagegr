@@ -18,7 +18,7 @@ p {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 28px;
-
+    word-break: break-all;
 }
 
 a {
@@ -307,6 +307,7 @@ section.home-bnr::before {
     color: #fff;
     text-align: center;
     font-size: 60px;
+    word-break: break-all;
 }
 
 /*  */
@@ -564,6 +565,7 @@ span.number-text {
     font-size: 22px;
     font-weight: 500;
     color: #f47629;
+    word-break: break-all;
 }
 
 .customer-content a {
@@ -607,6 +609,7 @@ section.servive {
     position: relative;
     padding-left: 20px;
     padding-bottom: 15px;
+    word-break: break-all;
 }
 
 .servive-content-wrapper ul li a {
