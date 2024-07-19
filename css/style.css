@@ -688,63 +688,102 @@ section.home-bnr.inner-bnr.car-repair {
     font-size: 26px;
     font-weight: 600;
 }
-section.home-bnr.inner-bnr.douskos-dimitrios{
+
+section.home-bnr.inner-bnr.douskos-dimitrios {
     background: url(../images/DOUSKOS.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
-section.home-bnr.inner-bnr.papadopoulos{
+
+section.home-bnr.inner-bnr.papadopoulos {
     background: url(../images/Papadopoulos.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
-section.home-bnr.inner-bnr.gp{
+
+section.home-bnr.inner-bnr.gp {
     background: url(../images/GP.jfif)no-repeat;
     background-size: cover;
     background-position: top;
 }
-section.home-bnr.inner-bnr.baradkis-k-tzagkarakis-p-oe{
+
+section.home-bnr.inner-bnr.baradkis-k-tzagkarakis-p-oe {
     background: url(../images/BARADAKIS.jpg)no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: center;
 }
-section.home-bnr.inner-bnr.alevizos-dionysios-sakis{
+
+section.home-bnr.inner-bnr.alevizos-dionysios-sakis {
     background: url(../images/ALEVIZOS.jfif)no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: center;
 }
-section.home-bnr.inner-bnr.lisgaras{
+
+section.home-bnr.inner-bnr.lisgaras {
     background: url(../images/LISGARAS.jpg)no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: center;
 }
-section.home-bnr.inner-bnr.cars{
+
+section.home-bnr.inner-bnr.cars {
     background: url(../images/LIARTIS.jpg)no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: center;
 }
-section.home-bnr.inner-bnr.stasis-dimitrios{
+
+section.home-bnr.inner-bnr.stasis-dimitrios {
     background: url(../images/STASIS.jpg)no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: center;
 }
-section.home-bnr.inner-bnr.bamas{
+
+section.home-bnr.inner-bnr.bamas {
     background: url(../images/BAMAs.jpg)no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: center;
 }
-section.home-bnr.inner-bnr.garage{
+
+section.home-bnr.inner-bnr.garage {
     background: url(../images/GARAGE.jpg)no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: center;
 }
+
 .footer-logo p {
     color: #fff;
     max-width: 352px;
     width: 100%;
 }
-section.home-bnr.inner-bnr.electricians-and-plumbers{
+
+section.home-bnr.inner-bnr.electricians-and-plumbers {
     background: url(../images/Electricians.jpg)no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: center;
 }
+
+section.home-bnr.inner-bnr.cleaning {
+    background: url(../images/cleaning-bnr.avif)no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+section.home-bnr.inner-bnr.polytechnician-of-telis {
+    background: url(../images/Polytechnician.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section.home-bnr.inner-bnr.technogas{
+    background: url(../images/Techno.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section.home-bnr.inner-bnr.maroulis-chrysantos-o{
+    background: url(../images/Maroulis.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+katicon.gr-the.html
