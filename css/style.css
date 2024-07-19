@@ -556,6 +556,7 @@ span.number-text {
     font-size: 22px;
     font-weight: 500;
     color: #f47629;
+    word-break: break-all;
 }
 
 .customer-content a {
