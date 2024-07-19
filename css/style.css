@@ -884,4 +884,8 @@ section.monts-athens {
     background-color: #f47629;
 }
 
-regency-casino-of-thessaloniki-in-small.html
+section.home-bnr.inner-bnr.regency{
+    background: url(../images/Regency.jfif)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
