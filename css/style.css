@@ -806,3 +806,27 @@ section.home-bnr.inner-bnr.plumbing {
     background-size: cover;
     background-position: center;
 }
+
+
+/* news page css start */
+.news-wrap {
+    padding: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 30px;
+}
+.news-wrap h3 {
+    font-size: 25px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.news-wrap p{
+    color: #444;
+}
+.news-wrap:last-child{
+    margin-bottom: 0;
+}
+section.home-bnr.inner-bnr.news-banner {
+    height: 300px;
+    background-image: url(../images/news-banner.jpg);
+}
+/* news page css end */
