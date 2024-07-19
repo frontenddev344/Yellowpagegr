@@ -805,3 +805,14 @@ section.home-bnr.inner-bnr.plumbing {
     background-size: cover;
     background-position: center;
 }
+.site-heading h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    line-height: 1.1;
+    text-align: left;
+    font-weight: 500;
+    color: #000;
+}
+.customer-content h3 {
+    word-break: break-all;
+}
