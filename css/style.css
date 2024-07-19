@@ -817,7 +817,7 @@ section.home-bnr.inner-bnr.plumbing {
     background-position: center;
 }
 
-<<<<<<< HEAD
+
 .site-heading h3 {
     font-size: 30px;
     margin-bottom: 50px;
@@ -890,8 +890,6 @@ section.home-bnr.inner-bnr.regency{
     background-size: cover;
     background-position: center;
 }
-=======
-
 /* news page css start */
 .news-wrap {
     padding: 25px;
@@ -914,4 +912,3 @@ section.home-bnr.inner-bnr.news-banner {
     background-image: url(../images/news-banner.jpg);
 }
 /* news page css end */
->>>>>>> 3014a2e133aaeab9dcca316e83846b87af52cbbc
