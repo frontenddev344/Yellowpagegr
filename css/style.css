@@ -521,6 +521,8 @@ section.contact-us-content {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease-in-out;
+
+    
 }
 
 .customer-box:hover {
