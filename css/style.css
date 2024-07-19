@@ -29,7 +29,9 @@ ul {
     padding: 0;
     list-style: none;
 }
-
+.container{
+    max-width: 1350px;
+}
 .navigation {
     padding: 16px 0;
 }
@@ -469,7 +471,7 @@ textarea#message {
     padding: 50px 0;
 }
 
-p.submit input {
+p.submit button {
     width: auto;
     padding: 14px 33px;
     text-decoration: none;
@@ -484,9 +486,10 @@ p.submit input {
     transition: 1s;
     display: inline-block;
     border-bottom: 2px solid #f47629 !important;
+    text-transform: capitalize;
 }
 
-p.submit input:hover {
+p.submit button:hover {
     border-bottom: 2px solid #f47629 !important;
     background-color: #f47629;
     border: 2px solid #f47629;
