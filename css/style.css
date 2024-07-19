@@ -177,7 +177,7 @@ ul.menu li:hover ul.dropdown-content {
 }
 
 .toggle-bar span.toggle_menu {
-    font-size: 1.5rem;
+    font-size: 1.875rem;
 }
 
 span.closebtn {
@@ -943,5 +943,8 @@ section.home-bnr.inner-bnr.casino-Porto-carras-in-halkidiki{
     background: url(../images/casino-Porto-carras-in-halkidik.jpg)no-repeat;
     background-size: cover;
     background-position: center;
+}
+.customer-content {
+    text-align: center;
 }
 /* news page css end */
